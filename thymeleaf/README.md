@@ -18,6 +18,16 @@ Those attributes are then translated and processed by Thymeleaf into normal HTML
 
 ## How it works
 
+In **Spring Boot** you need add ```Thymelead``` and ```web``` as dependency and add to your html header
+```html
+xmlns:th="http://www.w3.org/1999/xhtml"
+```
+or
+```html
+xmlns:th="http://www.thymeleaf.org"
+```
+
+
 ```html
 <p th:text="'Thymeleaf will display this'">text</p>
 ```
